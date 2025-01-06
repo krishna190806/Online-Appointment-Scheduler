@@ -1,0 +1,74 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #00796b;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #00796b;
+}
+
+input, textarea, button {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #b2dfdb;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+    border-color: #00796b;
+    outline: none;
+}
+
+button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+#appointments {
+    margin-top: 30px;
+}
+
+#appointment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#appointment-list li {
+    padding: 15px;
+    background-color: #b2dfdb;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
